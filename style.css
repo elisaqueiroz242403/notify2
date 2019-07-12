@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    display: grid;
+    grid-template-areas: 'header header header header'
+                          'navbar navbar navbar navbar'
+                          'section section aside aside'
+                          'footer footer footer footer';
+    grid-template-rows: 70vh 30vh 40vh 40vh;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 300%;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 130%;
+    text-align: start;
+    text-align: center;
+}
+
+
+
+span{
+    color: limegreen;
+}
+
+header{
+    grid-area: header;
+    background-color: blue;
+    border-top: 10px green solid;
+    background-image: url(imagem1.png);
+    display: flex;
+    
+}
+
+.imagem{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.imagem img{
+    height: 425px;
+    
+
+    
+}
+
+.texto{
+    height: 100%;
+    width: 50%;
+}
+
+nav{
+    grid-area: navbar;
+    background-color: red;
+
+}
+
+section{
+    grid-area: section;
+    background-color: yellow;
+}
+
+
+aside{
+    grid-area: aside;
+    background-color: green;
+}
+
+footer{
+    grid-area: footer;
+    background-color: purple;
+}
